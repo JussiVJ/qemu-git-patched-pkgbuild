@@ -19,7 +19,7 @@ _headlessdeps=(seabios gnutls libpng libaio numactl libnfs
                libssh zstd liburing)
 depends=(dtc virglrenderer sdl2 vte3 libpulse brltty "${_headlessdeps[@]}")
 makedepends=(spice-protocol python ceph libiscsi glusterfs python-sphinx xfsprogs)
-source=(git://git.qemu.org/qemu.git
+source=(git://github.com/JussiVJ/qemu-pinning.git
         qemu-ga.service
         65-kvm.rules)
 sha256sums=('SKIP'
